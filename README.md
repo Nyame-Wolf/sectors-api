@@ -1,8 +1,6 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 ![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white) ![Rails](https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white)
 
-# Exploration-Getaways-BACKEND
+# Sectors API
 
 This is the backend of my react sector app.
 
@@ -20,7 +18,7 @@ This is the backend of my react sector app.
 
 - Check the Ruby version or if you have at all by running `ruby -v` if you get something like this `ruby 2.6.8p205 (2021-07-07 revision 67951)` you have Ruby installed.
 - Clone the repository by running `git clone git@github.com:Nyame-Wolf/Sectors-api.git` in your CLI.
-- Type `cd Exploration-Getaways-BACKEND`
+- Type `cd sectors-api`
 - Type `code .`
 - Run `bundle install`
 
