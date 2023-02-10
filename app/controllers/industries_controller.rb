@@ -3,9 +3,9 @@ class IndustriesController < ApplicationController
 
   # GET /industries
   def index
-    @industries = Industry.all
+    @industries = Industry.includes(:sub_sectors)
 
-    render json: @industries
+    render json: @industries, include: [:sub_sectors]
   end
 
   # GET /industries/1
