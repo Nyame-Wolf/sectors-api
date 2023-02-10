@@ -5,7 +5,7 @@ class IndustriesController < ApplicationController
   def index
     @industries = Industry.includes(:sub_sectors)
 
-    render json: @industries, include: [:sub_sectors]
+    render json: @industries.as_json(include: { sub_sectors: { only: :id } })
   end
 
   # GET /industries/1
