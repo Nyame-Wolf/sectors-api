@@ -47,6 +47,6 @@ class UserPreferencesController < ApplicationController
 
   # Only allow a list of trusted parameters through.
   def user_preference_params
-    params.require(:user_preference).permit(:name, :option, :terms)
+    params.require(:user_preference).permit(:name, :sector, :terms)
   end
 end
