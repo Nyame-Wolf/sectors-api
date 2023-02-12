@@ -84,3 +84,4 @@ production:
   database: Sectors_api_production
   username: Sectors_api
   password: <%= ENV["SECTORS_API_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
